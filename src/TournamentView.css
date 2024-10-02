@@ -1,0 +1,36 @@
+.main {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  flex: 1 0 0;
+}
+
+.lower-body {
+  flex: 7 0 0;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+.login {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.login form {
+  text-align: left;
+}
